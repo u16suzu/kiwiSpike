@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64741B4117DA46E4006AA862 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64741B4017DA46E4006AA862 /* UIKit.framework */; };
+		64741B4317DA46E4006AA862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64741B4217DA46E4006AA862 /* Foundation.framework */; };
+		64741B4517DA46E4006AA862 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64741B4417DA46E4006AA862 /* CoreGraphics.framework */; };
+		64741B4B17DA46E4006AA862 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64741B4917DA46E4006AA862 /* InfoPlist.strings */; };
+		64741B4D17DA46E4006AA862 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64741B4C17DA46E4006AA862 /* main.m */; };
+		64741B5117DA46E4006AA862 /* U16AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64741B5017DA46E4006AA862 /* U16AppDelegate.m */; };
+		64741B5317DA46E4006AA862 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64741B5217DA46E4006AA862 /* Default.png */; };
+		64741B5517DA46E4006AA862 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64741B5417DA46E4006AA862 /* Default@2x.png */; };
+		64741B5717DA46E4006AA862 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64741B5617DA46E4006AA862 /* Default-568h@2x.png */; };
+		64741B5A17DA46E4006AA862 /* U16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64741B5917DA46E4006AA862 /* U16ViewController.m */; };
+		64741B5D17DA46E4006AA862 /* U16ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64741B5B17DA46E4006AA862 /* U16ViewController.xib */; };
+		64741B6A17DA4850006AA862 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64741B6917DA4850006AA862 /* SenTestingKit.framework */; };
+		64741B6B17DA4850006AA862 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64741B4017DA46E4006AA862 /* UIKit.framework */; };
+		64741B6C17DA4850006AA862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64741B4217DA46E4006AA862 /* Foundation.framework */; };
+		64741B7217DA4850006AA862 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64741B7017DA4850006AA862 /* InfoPlist.strings */; };
+		64741B7517DA4850006AA862 /* KiwiTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 64741B7417DA4850006AA862 /* KiwiTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64741B3D17DA46E4006AA862 /* kiwiSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiwiSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64741B4017DA46E4006AA862 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64741B4217DA46E4006AA862 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64741B4417DA46E4006AA862 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64741B4817DA46E4006AA862 /* kiwiSpike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kiwiSpike-Info.plist"; sourceTree = "<group>"; };
+		64741B4A17DA46E4006AA862 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64741B4C17DA46E4006AA862 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64741B4E17DA46E4006AA862 /* kiwiSpike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kiwiSpike-Prefix.pch"; sourceTree = "<group>"; };
+		64741B4F17DA46E4006AA862 /* U16AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = U16AppDelegate.h; sourceTree = "<group>"; };
+		64741B5017DA46E4006AA862 /* U16AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = U16AppDelegate.m; sourceTree = "<group>"; };
+		64741B5217DA46E4006AA862 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64741B5417DA46E4006AA862 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		64741B5617DA46E4006AA862 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64741B5817DA46E4006AA862 /* U16ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = U16ViewController.h; sourceTree = "<group>"; };
+		64741B5917DA46E4006AA862 /* U16ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = U16ViewController.m; sourceTree = "<group>"; };
+		64741B5C17DA46E4006AA862 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/U16ViewController.xib; sourceTree = "<group>"; };
+		64741B6817DA4850006AA862 /* KiwiTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64741B6917DA4850006AA862 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64741B6F17DA4850006AA862 /* KiwiTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiTest-Info.plist"; sourceTree = "<group>"; };
+		64741B7117DA4850006AA862 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64741B7317DA4850006AA862 /* KiwiTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiTest.h; sourceTree = "<group>"; };
+		64741B7417DA4850006AA862 /* KiwiTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiTest.m; sourceTree = "<group>"; };
+		64741B7617DA4850006AA862 /* KiwiTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiTest-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64741B3A17DA46E4006AA862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64741B4117DA46E4006AA862 /* UIKit.framework in Frameworks */,
+				64741B4317DA46E4006AA862 /* Foundation.framework in Frameworks */,
+				64741B4517DA46E4006AA862 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64741B6417DA4850006AA862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64741B6A17DA4850006AA862 /* SenTestingKit.framework in Frameworks */,
+				64741B6B17DA4850006AA862 /* UIKit.framework in Frameworks */,
+				64741B6C17DA4850006AA862 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64741B3417DA46E4006AA862 = {
+			isa = PBXGroup;
+			children = (
+				64741B4617DA46E4006AA862 /* kiwiSpike */,
+				64741B6D17DA4850006AA862 /* KiwiTest */,
+				64741B3F17DA46E4006AA862 /* Frameworks */,
+				64741B3E17DA46E4006AA862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64741B3E17DA46E4006AA862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64741B3D17DA46E4006AA862 /* kiwiSpike.app */,
+				64741B6817DA4850006AA862 /* KiwiTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64741B3F17DA46E4006AA862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64741B4017DA46E4006AA862 /* UIKit.framework */,
+				64741B4217DA46E4006AA862 /* Foundation.framework */,
+				64741B4417DA46E4006AA862 /* CoreGraphics.framework */,
+				64741B6917DA4850006AA862 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64741B4617DA46E4006AA862 /* kiwiSpike */ = {
+			isa = PBXGroup;
+			children = (
+				64741B4F17DA46E4006AA862 /* U16AppDelegate.h */,
+				64741B5017DA46E4006AA862 /* U16AppDelegate.m */,
+				64741B5817DA46E4006AA862 /* U16ViewController.h */,
+				64741B5917DA46E4006AA862 /* U16ViewController.m */,
+				64741B5B17DA46E4006AA862 /* U16ViewController.xib */,
+				64741B4717DA46E4006AA862 /* Supporting Files */,
+			);
+			path = kiwiSpike;
+			sourceTree = "<group>";
+		};
+		64741B4717DA46E4006AA862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64741B4817DA46E4006AA862 /* kiwiSpike-Info.plist */,
+				64741B4917DA46E4006AA862 /* InfoPlist.strings */,
+				64741B4C17DA46E4006AA862 /* main.m */,
+				64741B4E17DA46E4006AA862 /* kiwiSpike-Prefix.pch */,
+				64741B5217DA46E4006AA862 /* Default.png */,
+				64741B5417DA46E4006AA862 /* Default@2x.png */,
+				64741B5617DA46E4006AA862 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64741B6D17DA4850006AA862 /* KiwiTest */ = {
+			isa = PBXGroup;
+			children = (
+				64741B7317DA4850006AA862 /* KiwiTest.h */,
+				64741B7417DA4850006AA862 /* KiwiTest.m */,
+				64741B6E17DA4850006AA862 /* Supporting Files */,
+			);
+			path = KiwiTest;
+			sourceTree = "<group>";
+		};
+		64741B6E17DA4850006AA862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64741B6F17DA4850006AA862 /* KiwiTest-Info.plist */,
+				64741B7017DA4850006AA862 /* InfoPlist.strings */,
+				64741B7617DA4850006AA862 /* KiwiTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64741B3C17DA46E4006AA862 /* kiwiSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64741B6017DA46E4006AA862 /* Build configuration list for PBXNativeTarget "kiwiSpike" */;
+			buildPhases = (
+				64741B3917DA46E4006AA862 /* Sources */,
+				64741B3A17DA46E4006AA862 /* Frameworks */,
+				64741B3B17DA46E4006AA862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kiwiSpike;
+			productName = kiwiSpike;
+			productReference = 64741B3D17DA46E4006AA862 /* kiwiSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64741B6717DA4850006AA862 /* KiwiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64741B7917DA4850006AA862 /* Build configuration list for PBXNativeTarget "KiwiTest" */;
+			buildPhases = (
+				64741B6317DA4850006AA862 /* Sources */,
+				64741B6417DA4850006AA862 /* Frameworks */,
+				64741B6517DA4850006AA862 /* Resources */,
+				64741B6617DA4850006AA862 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiTest;
+			productName = KiwiTest;
+			productReference = 64741B6817DA4850006AA862 /* KiwiTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64741B3517DA46E4006AA862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = U16;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = u16suzu;
+			};
+			buildConfigurationList = 64741B3817DA46E4006AA862 /* Build configuration list for PBXProject "kiwiSpike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64741B3417DA46E4006AA862;
+			productRefGroup = 64741B3E17DA46E4006AA862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64741B3C17DA46E4006AA862 /* kiwiSpike */,
+				64741B6717DA4850006AA862 /* KiwiTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64741B3B17DA46E4006AA862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64741B4B17DA46E4006AA862 /* InfoPlist.strings in Resources */,
+				64741B5317DA46E4006AA862 /* Default.png in Resources */,
+				64741B5517DA46E4006AA862 /* Default@2x.png in Resources */,
+				64741B5717DA46E4006AA862 /* Default-568h@2x.png in Resources */,
+				64741B5D17DA46E4006AA862 /* U16ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64741B6517DA4850006AA862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64741B7217DA4850006AA862 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64741B6617DA4850006AA862 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64741B3917DA46E4006AA862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64741B4D17DA46E4006AA862 /* main.m in Sources */,
+				64741B5117DA46E4006AA862 /* U16AppDelegate.m in Sources */,
+				64741B5A17DA46E4006AA862 /* U16ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64741B6317DA4850006AA862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64741B7517DA4850006AA862 /* KiwiTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64741B4917DA46E4006AA862 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64741B4A17DA46E4006AA862 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64741B5B17DA46E4006AA862 /* U16ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64741B5C17DA46E4006AA862 /* en */,
+			);
+			name = U16ViewController.xib;
+			sourceTree = "<group>";
+		};
+		64741B7017DA4850006AA862 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64741B7117DA4850006AA862 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64741B5E17DA46E4006AA862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64741B5F17DA46E4006AA862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64741B6117DA46E4006AA862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kiwiSpike/kiwiSpike-Prefix.pch";
+				INFOPLIST_FILE = "kiwiSpike/kiwiSpike-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64741B6217DA46E4006AA862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kiwiSpike/kiwiSpike-Prefix.pch";
+				INFOPLIST_FILE = "kiwiSpike/kiwiSpike-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64741B7717DA4850006AA862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiTest/KiwiTest-Prefix.pch";
+				INFOPLIST_FILE = "KiwiTest/KiwiTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64741B7817DA4850006AA862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiTest/KiwiTest-Prefix.pch";
+				INFOPLIST_FILE = "KiwiTest/KiwiTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64741B3817DA46E4006AA862 /* Build configuration list for PBXProject "kiwiSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64741B5E17DA46E4006AA862 /* Debug */,
+				64741B5F17DA46E4006AA862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64741B6017DA46E4006AA862 /* Build configuration list for PBXNativeTarget "kiwiSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64741B6117DA46E4006AA862 /* Debug */,
+				64741B6217DA46E4006AA862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64741B7917DA4850006AA862 /* Build configuration list for PBXNativeTarget "KiwiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64741B7717DA4850006AA862 /* Debug */,
+				64741B7817DA4850006AA862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64741B3517DA46E4006AA862 /* Project object */;
+}
