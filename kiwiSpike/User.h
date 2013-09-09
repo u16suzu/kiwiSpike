@@ -10,6 +10,6 @@
 
 @interface User : NSObject
 
--(int)age;
+-(NSNumber*)age;
 -(NSString*)name;
 @end
