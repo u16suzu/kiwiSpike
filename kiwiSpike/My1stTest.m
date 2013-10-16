@@ -25,13 +25,18 @@ describe(@"User", ^{
     });
     
     it(@"age fail", ^{
-        [[taro.age should] equal:@3420429];
+        [[taro.age shouldNot] equal:@3420429];
     });
 
     it(@"name", ^{
         [[taro.name should] equal:@"taro"];
     });
 
+    it(@"primitive", ^{
+        [[theValue(256) should] equal:theValue(256)];
+        [[theValue(YES) shouldNot] equal:theValue(NO)];
+    });
+    
     // mock: インスタンス自体を偽装する
     it(@"", ^{
         NSString *mockName = [NSString mock];
@@ -41,7 +46,7 @@ describe(@"User", ^{
     // stub: オブジェクトのメソッドだけを偽装する
     it(@"", ^{
         [taro stub:@selector(name) andReturn:@"jiro"];
-        [[taro.name should] equal:@"taro"];
+        [[taro.name shouldNot] equal:@"taro"];
     });
 });
 
